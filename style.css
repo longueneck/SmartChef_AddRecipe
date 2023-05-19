@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffb100;
+    overflow: hidden;
+    
+ }
+
+ header{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+  }
+
+.logomarca{
+   display: flex;
+   width: 100px;
+   height: 100px;
+   justify-content: center;
+}
+
+  .principal {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 400px; 
+    height: 400px;
+    padding: 10px;
+  }
+
+  .titleH3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .inputText{ 
+    display: flex;
+    justify-content: center;  
+    width: 80%; 
+    height:25px; 
+    border-radius: 10px;
+    border-color: #ffb100;
+    border-style: solid;
+    outline: none;
+  }
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+  .register{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 380px;
+    background-color: #453014;
+    color: #FFFFFF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    align-items: center;
+    font-size: 14px;
+  }
+
+
+
+
