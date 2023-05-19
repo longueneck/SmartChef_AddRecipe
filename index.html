@@ -17,15 +17,57 @@
     <main>
 
         <div class="principal">
-          <h3 class="titleH3">Adicionar Receita</h3>
-          <p>Nome da Receita</p>
-          <input class="inputText" type="text" name="Nome da Receita" id="name">
-         <p>Ola</p>
-          <input class="inputText" type="text" name="Nome da Receita" id="name">
-          <p>Ola</p>
-          <input class="inputText" type="text" name="Nome da Receita" id="name">
-          <p>Ola</p>
-          <input class="inputText" type="text" name="Nome da Receita" id="name">
+         
+            <h3 class="titulo">Adicionar Receita</h3>
+         
+          <p class="titleLabel">Nome da Receita</p>
+         
+          <input class="nameRecipe" type="text" name="Nome da Receita" id="">
+
+         <select class="recipeType">
+            <option value="">Tipo de Receita</option>
+            <option value="opcao1">Café da Manhã</option>
+            <option value="opcao2">Lanche</option>
+            <option value="opcao3">Refeição</option>
+            <option value="opcao4">Bebida</option>
+            <option value="opcao5">Sobremesa</option>
+          </select>
+         
+          <select class="timeToPrepair" style="overflow: auto;">
+            <option value="">Tempo de Preparo</option>
+            <option value="5">5 minutos</option>
+            <option value="10">10 minutos</option>
+            <option value="15">15 minutos</option>
+            <option value="20">20 minutos</option>
+            <option value="25">25 minutos</option>
+            <option value="30">30 minutos</option>
+            <option value="35">35 minutos</option>
+            <option value="40">40 minutos</option>
+            <option value="45">45 minutos</option>
+            <option value="50">50 minutos</option>
+            <option value="55">55 minutos</option>
+            <option value="60">60 minutos</option>
+            <option value="60+">60+ minutos</option>
+          </select>
+          
+          <div class="insert">
+
+            <input type="text" id="inputIngredient" placeholder="Digite um ingrediente">
+            <button onclick="addIngredient()">Adicionar</button>
+            
+            <div id="ingredientList"></div>
+
+
+          </div>
+          
+
+          <p class="titleLabel">Ola</p>
+         
+          <input class="nameRecipe" type="text" name="Nome da Receita" id="">
+         
+          <p class="titleLabel">Ola</p>
+         
+          <input class="nameRecipe" type="text" name="Nome da Receita" id="">
         </div>
 
     </main>

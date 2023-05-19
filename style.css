@@ -1,76 +1,120 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffb100;
-    overflow: hidden;
-    
- }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffb100;
+  overflow: hidden;
+}
 
- header{
-    display: flex;
-    justify-content: center;
-    padding: 25px;
+header {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-  }
-
-.logomarca{
-   display: flex;
-   width: 100px;
-   height: 100px;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-  .principal {
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    width: 400px; 
-    height: 400px;
-    padding: 10px;
-  }
-
-  .titleH3{
-    display: flex;
-    justify-content: center;
-  }
-
-  .inputText{ 
-    display: flex;
-    justify-content: center;  
-    width: 80%; 
-    height:25px; 
-    border-radius: 10px;
-    border-color: #ffb100;
-    border-style: solid;
-    outline: none;
-  }
-
-.footer{
-    display: flex;
-    justify-content: center;
+.logomarca {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
 }
 
-  .register{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    width: 380px;
-    background-color: #453014;
-    color: #FFFFFF;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    align-items: center;
-    font-size: 14px;
-  }
+.principal {
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
 
+.titleLabel {
+  padding-left: 8px;
+  height: 5px;
+}
 
+.insert{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
+.insert input {
+  height: 25px;
+  width: 250px;
+  border-radius: 10px;
+  outline: none;
+  border-style: solid;
+}
 
+.insert button{
+  margin-left: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.nameRecipe {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+  height: 25px;
+  border-radius: 10px;
+  border-color: #ffb100;
+  border-style: solid;
+  outline: none;
+}
+
+.recipeType {
+  margin-top: 15px;
+  margin-left: 35px;
+  width: 150px;
+  height: 30px;
+  background-color: #453014;
+  color: #ffffff;
+  border-style: none;
+  outline: none;
+}
+
+.timeToPrepair {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: #453014;
+  color: #ffffff;
+  border-style: none;
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.register {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 380px;
+  background-color: #453014;
+  color: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  align-items: center;
+  font-size: 14px;
+}
